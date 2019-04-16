@@ -53,7 +53,7 @@ var newGreeting = function()
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-let cities = ["apples", "milk", "eggs", "bread"]
+let groceries = ["apples", "milk", "eggs", "bread"]
 
 //////////////////PROBLEM 9////////////////////
 
@@ -62,12 +62,18 @@ let cities = ["apples", "milk", "eggs", "bread"]
 //name (a string), color (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
+let dog = {
+  name: "Fidorooskidoo",
+  color: "Hot Pink",
+  age: 7,
+var goodBoy;
+}
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-//Code Here
+dog.name
+var devMountainClassPet
 
 //////////////////PROBLEM 10////////////////////
 
@@ -78,7 +84,9 @@ let cities = ["apples", "milk", "eggs", "bread"]
 // If the name parameter is anything else, return 'Cool name, NAMEPARAM'
 // with NAMEPARAM being the name parameter being passed in
 
-// Code here
+function nameCheck (name) {
+  
+}
 
 //////////////////PROBLEM 11////////////////////
 
