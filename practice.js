@@ -45,7 +45,7 @@ function greeting (name) {
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-//Code Here
+var newGreeting = function()
 
 
 //////////////////PROBLEM 8////////////////////
@@ -53,7 +53,7 @@ function greeting (name) {
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-//Code Here
+let cities = ["apples", "milk", "eggs", "bread"]
 
 //////////////////PROBLEM 9////////////////////
 
