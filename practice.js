@@ -86,9 +86,9 @@ var devMountainClassPet = dog.name
 // with NAMEPARAM being the name parameter being passed in
 
 function nameCheck (name) {
-if (nameCheck === "Steven") {
+if (name === "Steven") {
   console.log('What is up Steven?')
-} if (nameCheck === "Bryan") {
+} if (name === "Bryan") {
   console.log('Hey Bryan!')
 } else {
   console.log('Cool name, NAMEPARAM')
