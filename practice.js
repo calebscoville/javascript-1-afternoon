@@ -45,7 +45,9 @@ function greeting (name) {
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-var newGreeting = function()
+var newGreeting = function(name) {
+  return "Hello, " + name
+}
 
 
 //////////////////PROBLEM 8////////////////////
@@ -66,14 +68,13 @@ let dog = {
   name: "Fidorooskidoo",
   color: "Hot Pink",
   age: 7,
-var goodBoy;
+goodBoy: true
 }
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-dog.name
-var devMountainClassPet
+var devMountainClassPet = dog.name
 
 //////////////////PROBLEM 10////////////////////
 
@@ -85,7 +86,13 @@ var devMountainClassPet
 // with NAMEPARAM being the name parameter being passed in
 
 function nameCheck (name) {
-  
+if (nameCheck === "Steven") {
+  console.log('What is up Steven?')
+} if (nameCheck === "Bryan") {
+  console.log('Hey Bryan!')
+} else {
+  console.log('Cool name, NAMEPARAM')
+}
 }
 
 //////////////////PROBLEM 11////////////////////
